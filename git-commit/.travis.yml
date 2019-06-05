@@ -1,0 +1,24 @@
+sudo: false
+language: node_js
+node_js: stable
+
+cache:
+  directories:
+    - node_modules
+
+branches:
+  only:
+    - git-commit
+
+install:
+  - npm install
+script:
+  - npm test
+after_success:
+  - npm run coveralls
+
+after_failure:
+  - echo 'test run failed'
+
+after_script:
+  - echo 'all run over'

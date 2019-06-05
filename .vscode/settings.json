@@ -1,0 +1,10 @@
+{
+	"[javascript]": {
+		"editor.formatOnSave": true,
+		"editor.formatOnPaste": false
+	},
+	"[javascriptreact]": {
+		"editor.formatOnSave": true,
+		"editor.formatOnPaste": false
+	}
+}
