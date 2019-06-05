@@ -1,6 +1,6 @@
 {
   "name": "@chengzao/git-commit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "git commit init",
   "license": "MIT",
   "repository": "chengzao/commit-prettier",
